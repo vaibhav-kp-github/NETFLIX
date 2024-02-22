@@ -548,10 +548,6 @@ video {
   pointer-events: none;
 }
 
-.visible {
-  visibility: visible;
-}
-
 .fixed {
   position: fixed;
 }
@@ -2804,24 +2800,6 @@ video {
 
 .group:focus .group-focus\:hidden {
   display: none;
-}
-
-.peer\/draft:checked ~ .peer-checked\/draft\:block {
-  display: block;
-}
-
-.peer\/published:checked ~ .peer-checked\/published\:block {
-  display: block;
-}
-
-.peer\/draft:checked ~ .peer-checked\/draft\:text-sky-500 {
-  --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
-}
-
-.peer\/published:checked ~ .peer-checked\/published\:text-sky-500 {
-  --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
