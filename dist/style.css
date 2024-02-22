@@ -2902,10 +2902,6 @@ video {
     gap: 4rem;
   }
 
-  .sm\:gap-3 {
-    gap: 0.75rem;
-  }
-
   .sm\:gap-4 {
     gap: 1rem;
   }
